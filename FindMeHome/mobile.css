@@ -1,0 +1,26 @@
+/* menu */
+.mobile-menu-container {
+    cursor: pointer;
+}
+
+.mobile-menu-container .menu div {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.42;;
+}
+
+/* we will use javascript to add .menu-change to .menu-container */
+.mobile-menu-container .menu-change div:first-child {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.mobile-menu-container .menu-change div:nth-child(2) {
+    opacity: 0;
+    /* what's the difference between opacity: 0 and display: none */
+}
+
+.mobile-menu-container .menu-change div:nth-child(3)  {
+    transform: translate(0, -11px) rotate(45deg);
+}

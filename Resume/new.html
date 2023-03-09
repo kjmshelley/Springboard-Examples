@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <style>
+        /* * {
+            border: 1px solid black;
+        } */
+
+        .parent {
+            position: relative;
+        }
+
+        .child {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        .modal {
+            position: absolute;
+            top: 30%;
+            left: 35%;
+            width: 300px;
+            border: 1px solid #cecece;
+            height: 100px;
+            border-radius: 4%;
+            padding: 5px;
+        }
+
+        h3 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- block elements -->
+    <div>I'm a div</div>
+    <p>I'm a paragraph</p>
+    <h1>I'm a header</h1>
+    <div class="parent">
+        <div class="child">I'm a child element</div>    
+    </div>
+
+    <div class="modal">
+        <h3>This is a modal popup with some message to the user!</h3>
+    </div>
+    
+    <!-- end of block elements -->
+
+    <!-- inline elements -->
+    <a href="#">Google Link</a>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+    <span>I'm a span</span>
+    
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    font-size: 10px;
+}
+
+.main {
+
+}
+
+.title {
+
+}
+
+.input {
+    border: 1px solid #000;
+}
+
+.input [type="text"] {
+    border: 0;
+    font-size: 2.5rem;
+}
+
+.input [type="text"]:focus {
+    outline: none;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin: 5px;
+    padding: 10px 40px;
+
+    font-size: 2rem;
+    font-weight: 500;
+    width: 10px;
+}
+
+.equal {
+    background-color: #1866b1;
+    color: #FFF;
+}

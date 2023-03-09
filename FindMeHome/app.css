@@ -1,0 +1,13 @@
+/* menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #6c757d;
+}
+
+/* all links */
+a {
+    text-decoration: none;
+}

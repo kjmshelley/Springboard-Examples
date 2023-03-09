@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="split_layout.css" />
+</head>
+<body>
+
+    <div class="app">
+        <div class="left">
+
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="box-title">
+                    <img src="" alt="" />
+                    <h1>Login</h1>
+                </div>
+    
+                <div class="box-body">
+                    <div class="input">
+                        <label for="email">Email address</label>
+                        <div class="input-box">
+                            <input id="email" type="text" placeholder="john.smith@gmail.com" />
+                        </div>
+                    </div>
+    
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <div id="password" class="input-box">
+                            <input type="password" placeholder="*********" />
+                            <span style="color:#0c69d3">Reset Password</span>
+                        </div>
+                    </div>
+    
+                    <div class="input" style="margin-top:10px">
+                       <input type="checkbox" checked />
+                       <span>Remember Password</span>
+                    </div>
+    
+                    <div class="button-group">
+                        <div>
+                            <button>Login</button>
+                        </div>
+                        <div>
+                            <img src="./google.png" alt="Google" />
+                            <a href="#">Sign in with Google</a>
+                            <!-- <a href="https://www.flaticon.com/free-icons/google" title="google icons">Google icons created by Freepik - Flaticon</a> -->
+                        </div>
+                    </div>
+                        
+                    <div>
+                        <span>Don't have an account?</span>
+                        <a href="#">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

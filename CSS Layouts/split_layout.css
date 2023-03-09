@@ -1,0 +1,101 @@
+:root {
+    font-size: 10px;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left {
+    background-color: green;
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right h1 {
+    color: white;
+}
+
+.box {
+    background-color: #FFF;
+    height: 30%;
+    width: 60%;
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input-box {
+    border: 1px solid rgb(212, 209, 209);
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.input .label {
+    font-size: 1.7rem;
+}
+
+.input-box input[type="text"],
+.input-box input[type="password"] {
+    border: 0px;
+}
+
+.input-box input[type="text"]:focus,
+.input-box input[type="password"]:focus {
+    outline: none;
+}
+
+span, a {
+    font-size:1.4rem;
+    text-decoration: none;
+}
+
+.button-group div {
+    width: 100%;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.button-group div:first-child button {
+    background-color: #0a57b0;
+    border: 1px solid #0a57b0;
+    color: #FFF;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* second div Sign in with Google */
+.button-group div:nth-child(2) {
+    background-color: white;
+    border: 1px solid #cecece;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.button-group div:nth-child(2) img {
+    width:  20px;
+    height: 20px;
+}
+
+/******************************************/
