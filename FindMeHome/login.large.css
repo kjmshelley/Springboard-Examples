@@ -1,0 +1,29 @@
+@media screen and (min-width: 901px) {
+    .box {
+        background-color: #FFF;
+        border-radius: 5px;
+        width: 40%;
+        padding: 4em;
+        padding-top: 15px;
+    }
+
+    .password {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .password div:first-child input {
+        width: 100%;
+    }
+
+    .password div:first-child {
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .password div:last-child {
+        width: 40%;
+    }
+}
+

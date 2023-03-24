@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Master</title>
+    <link rel="stylesheet" href="ticket.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- https://dribbble.com/shots/5706876-Support-tickets-Time-to-prove-my-UX-skill-set# -->
+    <div class="app">
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li>DASHBOARD</li>
+                    <li>MY TICKETS</li>
+                    <li>ADMIN</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="x">
+                <div class="title">
+                    <div>
+                        Your support requests
+                    </div>
+                    <div class="title-support-request">
+                        + MAKE SUPPORT REQUEST
+                    </div>
+                </div>
+                <div class="search row">
+                    <div class="search-options col-2">
+                        <select>
+                            <option>Status</option>
+                            <option>Pending</option>
+                            <option>Need your reply</option>
+                            <option>Resolved</option>
+                        </select>
+                    </div>
+                    <div class="search-box col-5">
+                        <input type="text" placeholder="Search by topic or ID" />
+                    </div>
+                    <div class="search-buttons row col-3">
+                        <div class="button">WEEK</div>
+                        <div class="button">MONTH</div>
+                        <div class="button">YEAR</div>
+                        <div class="button custom">CUSTOM</div>
+                    </div>
+                </div>
+
+                <div class="headers row">
+                    <ul class="row">
+                        <li class="col-2">TICKETS #</li>
+                        <li class="col-4">TOPIC</li>
+                        <li class="col-2">REQUEST STATUS</li>
+                        <li class="col-2">LAST UPDATED</li>
+                        <li class="col-2 page-navigation row">
+                            <div class="col-5">
+                                <span class="page">1-20</span> of 300
+                            </div>
+                            <div class="row col-5">
+                                <div class="page-navigation-back">
+                                    &lt;
+                                </div>
+                                <div class="page-navigation-next">
+                                    &gt;
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="divider"></div>
+                <br />
+                <div class="data-rows">
+                    <div class="row data-row">
+                        <div class="col-2">#34221</div>
+                        <div class="col-4">How can I invite my friend</div>
+                        <div class="col-2">Pending</div>
+                        <div class="col-2">02-23-2017</div>
+                        <div class="col-2">
+                            <div class="view-button">View</div>
+                        </div>
+                    </div>
+
+                    <div class="row data-row">
+                        <div class="col-2">#2344</div>
+                        <div class="col-4">Sent money but disappeared</div>
+                        <div class="col-2">Pending</div>
+                        <div class="col-2">02-23-2017</div>
+                        <div class="col-2">
+                            <div class="view-button">View</div>
+                        </div>
+                    </div>
+
+                    <div class="row data-row">
+                        <div class="col-2">#23422</div>
+                        <div class="col-4">Balance Error</div>
+                        <div class="col-2">Need your reply</div>
+                        <div class="col-2">02-21-2017</div>
+                        <div class="col-2">
+                            <div class="view-button">View</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
