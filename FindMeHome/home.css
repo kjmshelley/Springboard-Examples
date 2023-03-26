@@ -32,7 +32,13 @@ a {
 .header .logo {
     width: 20%;
     padding: 0;
+    padding-left: 10px;
     padding-bottom: 0px;
+}
+
+.header .logo span {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 4rem;
 }
 
 .header .logo img {
