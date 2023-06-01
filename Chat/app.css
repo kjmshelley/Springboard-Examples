@@ -1,0 +1,79 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    font-size: 10px;
+    box-sizing: border-box;
+
+    --button: #055C9D;
+    --button-press: #0E86D4;
+}
+
+html, body, .app {
+    height: 100%;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (min-width: 800px) {
+    .msgContainer {
+        width: 80%;
+        height: 100%;
+        /* background-color: green; */
+    }
+    
+    .userContainer {
+        width: 20%;
+        height: 100%;
+        background-color: purple;
+    }
+}
+
+.msgContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.msgHolder {
+    height: 90%;
+}
+
+.msgInput {
+    padding: 10px;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.msgInput textarea {
+    height: 95%;
+    width: 95%;
+    border-radius: 5px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.sendButton {
+    width: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.sendButton button {
+    font-size: 2rem;
+    background-color: var(--button);
+    color: #FFF;
+    border-radius: 5px;
+    border: 1px solid var(--button);
+}
+
+.sendButton button:hover {
+    background-color: var(--button-press);
+    border: 1px solid var(--button-press);
+    cursor: pointer;
+}
