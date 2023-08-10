@@ -1,0 +1,71 @@
+* {
+    
+}
+
+:root {
+    font-size: 10px;
+}
+
+html, body, .app {
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 10%;
+    max-width: 15%;
+    background-color: #e8e7e7;
+    border: 1px solid #e8e7e7;   
+}
+
+.card-header {
+
+}
+
+.card-header-img {
+
+}
+
+.card-header-img img {
+    width: 50%;
+}
+
+.card-body {
+
+}
+
+.profile-info {
+
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.profile-title {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.profile-company {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.profile-links {
+
+}
+
+.profile-connect {
+    background-color: #181818;
+    color: #FFF;
+    font-size: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+.app {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.entry {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.partsOfSpeech {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1px;
+}
+
+.partsOfSpeech div {
+    color: #4285f4;
+    padding: .5em;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 1px solid #4285f4;
+    cursor: pointer;
+}
+
+.phonetics {
+    font-size: 1.4rem;
+}
+
+.phonetics-active {
+    color: #FFF!important;
+    background-color: #4285f4;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.definitions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.definition {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.etymology {
+    font-size: 2rem;
+}
+/*
+
+        <div class="definitions">
+            <div class="title">
+                DEFINITIONS
+            </div>
+            <div class="definition">
+                1. A greeting blah blahbalh
+            </div>
+            <div class="other">
+                <div class="synonyms">
+                    <div class="title">SYNONYMS</div>
+                </div>
+                <div class="antonyms">
+                    <div class="title">ANTONYMS</div>
+                </div>
+            </div>
+            <div class="etymology">
+                <div class="title">ETYMOLOGY</div>
+            </div>
+        </div>
+        */

@@ -1,0 +1,65 @@
+:root {
+    font-size: 10px;
+}
+
+html, body, .app {
+    background-color: rgb(12, 173, 12);
+    height: 100%;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.card-value {
+    font-size: 8rem;
+    color: #FFF;
+    text-align: center
+}
+
+.player1-hand {
+    display: flex;
+    justify-content: center;
+}
+
+#hand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.red { background-color: #f35959 }
+.blue { background-color: #006cb4 }
+.yellow { background-color: #eed324 }
+.green { background-color: #00ac67 }
+.blank { background-color: #FFF }
+.black { background-color: #444444; color: #FFF }
+.deck {
+    font-size: 3rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row
+}
+
+.deck-hand {
+    box-shadow: 2px 2px 2px 2px #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck-hand .card-value {
+    font-size: 3rem;
+}
